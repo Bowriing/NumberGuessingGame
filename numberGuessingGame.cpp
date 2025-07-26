@@ -19,7 +19,7 @@ int main(){
     getline(std::cin, sUsername);
     std::cout << "Hello " << sUsername << ", Welcome to ebowring's Number Guessing Game!\n" << std::endl;
 
-    //Generate random number -- Uses Mersenne tittie twister algorithm
+    //Generate random number -- Uses Mersenne twister algorithm
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> dis(1, 100);
