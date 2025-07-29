@@ -7,4 +7,7 @@ add_executable(untitled archive/main1.cpp
         archive/cmath.cpp
         archive/switch.cpp
         archive/ternaryOperator.cpp
-        numberGuessingGame.cpp)
+        numberGuessingGame.cpp
+        "Player Leaderboard/leaderboard.cpp"
+        "Player Leaderboard/leaderboard.h"
+)
